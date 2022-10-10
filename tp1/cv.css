@@ -1,0 +1,19 @@
+body{
+    background: white;
+
+}
+h1.class1{
+    font-size: 2em;
+    font-family: Arial;
+    Width:100%;
+     
+    text-align: center;
+    border: 2px solid rgb(0, 94, 255);
+    
+}
+h1.class2{
+    font-size: 2em;
+    font-family: Arial; 
+    color: rgb(0, 94, 255);
+    text-decoration:underline;
+}
