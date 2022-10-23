@@ -9,7 +9,8 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
+        <script type="text/javascript" src="formulaire.js"></script>
+        <link rel="stylesheet" href="tp2.css" />
         <style>
           body{
               background-color: #e9ebee;              
@@ -19,15 +20,18 @@
               max-width: 800px;              
           }
         </style>
-        
-        <!-- Code à dé-commenter si besoin de fichier CSS ou JS -->
-        <!--<link rel="stylesheet" href="style.css">-->
-        <!--<script src="js/main.js"></script>-->
     </head>
-    <body>        
-        <h1>tp2</h1>
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <img src="../galilee.png" alt="Logo Galilee"/>
+    <body>             
+        <h1 text-align="center">Saisie d'une fiche "Personne"</h1>
+        <form action="" method="POST">
+            Nom: <input type="text" id="nom" minlength="5" maxlength="20"></br>
+            Prenom: <input type="text" id="prenom" minlength="5" maxlength="20"></br>
+            Date de naissance: <input type="date" id="date" placeholder="JJ/MM/AAAA"></br>
+            Adresse: <input type="text" id="adresse" minlength="5" maxlength="50"></br>
+            Mail: <input type="adress" id="mail" minlength="5" maxlength="30"></br>
+            <input type="button" value="envoyer" onclick="validation()">
+        </form>
+        <div class="class1" id="error" display="none" ></div>
+        <div class="class2" id="res" display="none"></div>
     </body>
 </html>
