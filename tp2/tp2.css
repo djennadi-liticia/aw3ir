@@ -1,9 +1,11 @@
-class1{
+#error{
+    display:none;
     background-color: pink;
     border: 1px solid black;
     padding: pink;
 }
-class2 {
+#res {
+ display:none; 
 background-color: green;
 padding : 5px;
 color:white;
