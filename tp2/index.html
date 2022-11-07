@@ -7,31 +7,38 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-        <script type="text/javascript" src="formulaire.js"></script>
-        <link rel="stylesheet" href="tp2.css" />
-        <style>
-          body{
-              background-color: white;              
-              font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-              font-size: 16px;
-              margin: 0 auto;
-              max-width: 800px;              
-          }
-        </style>
-    </head>
-    <body>             
-        <h1 text-align="center">Saisie d'une fiche "Personne"</h1>
-        <form action="" method="POST">
-            Nom: <input type="text" id="nom" minlength="5" maxlength="20"></br>
-            Prenom: <input type="text" id="prenom" minlength="5" maxlength="20"></br>
-            Date de naissance: <input type="date" id="date" placeholder="JJ/MM/AAAA"></br>
-            Adresse: <input type="text" id="adresse" minlength="5" maxlength="50"></br>
-            Mail: <input type="adress" id="mail" minlength="5" maxlength="30"></br>
-            <input type="button" value="envoyer" onclick="validation()">
-        </form></br></br>
-        <div id="error" ></div>
-        <div id="res" ></div>
-    </body>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <style>
+      body {
+        background-color: #e9ebee;
+        font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco",
+          "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+        font-size: 16px;
+        margin: 0 auto;
+        max-width: 800px;
+      }
+    </style>
+<link rel="stylesheet" href="style.css" />
+    <!-- Code à dé-commenter si besoin de fichier CSS ou JS -->
+    <!--<link rel="stylesheet" href="style.css">-->
+    <!--<script src="js/main.js"></script>-->
+  </head>
+  <body>
+ <h1 text-align="center">Saisie d'une fiche "Personne"</h1>
+ <form action="Action.html" method="get">
+ <p><label for="name">Nom:</label>
+ <input type="text" name="name" minlength="2" maxlength="20" required><span class="icon-ok">✔</span></p>
+ <p><label for="firstname">Prénom:</label>
+ <input type="text" name="firstname" minlength="2" maxlength="20" required><span class="icon-ok">✔</span></p>
+ <p><label for="date">Date de naissance:</label>
+ <input type="date" name="birthday" required ><span class="icon-ok">✔</span></p>
+ <p><label for="adresse">Adresse:</label>
+<input type="text" name="address" minlength="5" maxlength="50" required ><span class="icon-ok">✔</span></p>
+<p><label for="email">Mail:</label>
+<input type="email" name="email" minlength="5" maxlength="30" required ><span class="icon-ok">✔</span></p>
+<input type="submit" value="envoyer" class="btn-primary">
+</form>
+  </body>
 </html>
