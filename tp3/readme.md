@@ -182,7 +182,7 @@ myModal.show();
 
 ![Texte alternatif](image3.png "texte pour le titre, facultatif")   
 Modal quand tous les champs sont OK
-
+n su
    3. Pour l'image voir documentation vers Google Static Maps API https://developers.google.com/maps/documentation/static-maps/
      
    * Clé Google Map Image à utiliser ```AIzaSyAkmvI9DazzG9p77IShsz_Di7-5Qn7zkcg```
