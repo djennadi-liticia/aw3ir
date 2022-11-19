@@ -109,7 +109,8 @@ window.onload = function () {   // ce code est exécuter une fois que toute la p
     // Y mettre le code Javascript pour valider tous les champs du formulaire
 };
 ```
-
+/* 
+          */
 2. Règles de validation du formulaire : 
    * les champs texte doivent avoir **5 caractères mininum**
    * le mail doit être bien formaté
