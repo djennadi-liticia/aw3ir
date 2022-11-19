@@ -1,5 +1,5 @@
 function validateEmail(email) {
-   const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+   const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[-zA-Z]{2,}))$/;
    return re.test(String(email).toLowerCase());
  } 
 function testdate() {  
@@ -28,5 +28,4 @@ function Validation(){
       document.querySelector(".modal-title").textContent = "Erreur dans le formulaire";
       document.querySelector(".modal-body").innerHTML= "Tout les champs sont obligatoires" ;
       myModal.show();
-   }
-  }
+   }}
