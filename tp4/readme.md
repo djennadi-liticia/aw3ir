@@ -250,9 +250,9 @@ var contactStore = (function () {
 - Pour faire une boucle sur une liste JSON:
 
 ```js
-for (var index in contactList) {
-  console.log(contactList[index].name);
-}
+     for (var index in contactList) {
+      console.log(contactList[index].name);
+     }
 ```
 
 - Exemple de code pour ajout un contact au tableau:
