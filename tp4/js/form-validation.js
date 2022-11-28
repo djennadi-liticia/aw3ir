@@ -8,7 +8,6 @@ function testdate() {
       return true;
    }
 }
-
 function Validation() {
    nom = document.getElementById("nom").value;
    prenom = document.getElementById("prenom").value;
