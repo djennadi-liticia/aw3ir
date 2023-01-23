@@ -1,9 +1,4 @@
-<p>meteo works!</p>
-<!-- app.component.html -->
-<h1>
-    Welcome to {{ title }}!
-  </h1>
-  <app-meteo><!--app\meteo\meteo.component.html-->
+
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item active" aria-current="page">🏠</li>
@@ -35,7 +30,7 @@
           Doit contenit au moins 3 caratères.
         </div>
       </div>
-    </form></app-meteo>
+    </form>
     <hr/>
 
 <!-- Listing des villes, boucle sur l'array : cityList -->
@@ -54,19 +49,7 @@
 </div>
 
 
-<hr/>
-<p>
-  Utilisation du filtrer
-  <strong>json</strong> pour afficher le contenu de la variable
-  <strong>cityList</strong>
-</p>
-<pre>
-{{cityList | json}}
-</pre>
 
-<!-- fin : Listing des villes -->
-
-<hr>
 <div class="container">
 
     <!-- menu du haut de page -->
@@ -88,13 +71,6 @@
     </nav>
     <!-- fin : menu du haut de page -->
   
-    <!--The content below is only a placeholder and can be replaced.-->
-    <div>
-      <h1>
-        Welcome to {{ title }}!
-      </h1>
-      <!-- <app-meteo></app-meteo> -->
-      <router-outlet></router-outlet>
-    </div>
+   
   
   </div>
